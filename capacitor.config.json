@@ -1,0 +1,19 @@
+{
+  "appId": "com.example.app",
+  "appName": "capacitor-spm-test",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "android": {
+    "appendUserAgent": "android:application",
+    "webContentsDebuggingEnabled": true
+  },
+  "ios": {
+    "appendUserAgent": "ios:application",
+    "webContentsDebuggingEnabled": true
+  }
+}
