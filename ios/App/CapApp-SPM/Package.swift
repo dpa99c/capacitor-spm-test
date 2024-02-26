@@ -21,7 +21,9 @@ let package = Package(
             name: "CapApp-SPM",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor6-spm-test"),
-                .product(name: "Cordova", package: "capacitor6-spm-test")
+                .product(name: "Cordova", package: "capacitor6-spm-test"),
+                .product(name: "CameraPlugin", package: "CapacitorCamera"),
+                .product(name: "SplashScreenPlugin", package: "CapacitorSplashScreen")
             ]
         )
     ]
